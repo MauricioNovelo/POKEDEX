@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CakeRoom | Pastelero</title>
+        <style>
+            nav {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 50px;
+            }
+            .menu {
+                display: flex;
+                vertical-align: middle;
+                height: 50;
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: rgb(87, 14, 184);
+                word-spacing: 40px;
+                text-decoration: none !important;
+            }
+            a {
+                color: inherit;
+            }
+            .order {
+                display: block;
+                text-align: center;
+                padding: 50px;
+            }
+            main { 
+                background-color: rgb(248, 249, 250);
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: #7C553E;
+                padding-left: 100px;
+            }
+            table, tr, td {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                color: black;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+                
+            }
+            th {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: black;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="menu_bar" class="menu" style="padding: 0px; position: fixed; height: 110px; width: 100%; top: 0px; align-items: center; background-color: #efe6dd; left: 0px; z-index: 10; color: #B29488;">
+            <header style="padding-left: 60px; " >
+               <a href="index.html"> 
+                   <img src="./imagenes/Reino de chocolate.png" alt="logo" width="100" height="100">
+                </a>
+            </header>
+            <nav style=" align-items: center; position: absolute; right: 70px;"> 
+                <a href="index.html" style="text-decoration:none;">Menú</a>
+                <a href="orden.html" style="text-decoration:none;">Ordenar</a>
+                <a href="chef.html" style="text-decoration:none;">Pastelero</a>
+                
+            </nav>
+        </div>
+
+        <main style="position: absolute; width: 100%; top: 110px; left: 0px; justify-content: center; align-items: left; display: flex; flex-direction: column;">
+            <div>
+                <h1>Pedidos pendientes</h1>
+            </div>
+            <hr>
+            <div>
+                <table>
+                    <tr>
+                        <th>Nombre</th> 
+                        <th>Telefono</th> 
+                        <th>Relleno</th> 
+                        <th>Cubierta</th>
+                    </tr>
+                    <tr>
+                        <td>Juan Palomares</td> 
+                        <td>2299785231</td> 
+                        <td>Fresa</td> 
+                        <td>Merengue</td>
+                    </tr>
+                    <tr>
+                        <td>Adriana Villanueva</td> 
+                        <td>2299524123</td> 
+                        <td>Vainilla</td> 
+                        <td>Fudge</td>
+                    </tr>
+                    <tr>
+                        <td>Joaquin Gutierrez</td> 
+                        <td>2298523620</td> 
+                        <td>Chocolate</td> 
+                        <td>Fondant</td>
+                    </tr>
+                    <tr>
+                        <td>Romar Pla</td> 
+                        <td>2293656268</td> 
+                        <td>Vainilla</td> 
+                        <td>Merengue</td>
+                    </tr>
+                    
+                </table>
+               
+            </div>
+        </main>
+    </body>
+</html>

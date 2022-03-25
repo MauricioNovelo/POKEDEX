@@ -1,18 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Pastelería especial" name="keywords">
-<meta content="Pastelería con el mejor sabor" name="description">
-<title>Bienvenidos al Reino de chocolate</title>
-<link href="imagenes/Reino de chocolate.png" rel="icon">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reino de chocolate | Menu</title>
+        <style>
 
+            .menu {
+                display: flex;
+                vertical-align: middle;
+                height: 50;
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: #7C553E;
+                word-spacing: 40px;
+                text-decoration: none !important;
+            }
+            a {
+                color: inherit;
+            }
+            .order {
+                display: block;
+                text-align: center;
+                padding: 50px;
+            }
+            main { 
+                background-color: rgb(248, 249, 250);
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: #7C553E;
+            }
+            table {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                color: black;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
 
+    </head>
 
+    <body >
+        <div id="menu_bar" class="menu" style="padding: 0px; position: fixed; height: 110px; width: 100%; top: 0px; align-items: center; background-color: #efe6dd; left: 0px; z-index: 10; color: #B29488;">
+            <header style="padding-left: 60px; " >
+               <a href="index.html"> 
+                   <img src="./imagenes/Reino de chocolate.png" alt="logo" width="100" height="100">
+                </a>
+            </header>
+            <nav style=" align-items: center; position: absolute; right: 70px;"> 
+                <a href="index.html" style="text-decoration:none;">Menú</a>
+                <a href="orden.html" style="text-decoration:none;">Ordenar</a>
+                <a href="chef.html" style="text-decoration:none;">Pastelero</a>
+                
+            </nav>
+        </div>
 
-
-</body>
+        <main style="position: absolute; width: 100%; top: 110px; left: 0px; justify-content: center; align-items: center; display: flex; flex-direction: column;">
+            <div style="width: 900px;  display: flex; margin-right: 0px; justify-content: center; position: relative; flex-direction: column; align-items: center;">
+                <h1 >Nuestros productos</h1>
+                <h2>Selecciona tus topicos</h2>
+            </div>
+            <hr>
+            <div style="width: 900px;  display: flex; margin-right: 0px; justify-content: center; position: relative; flex-direction: column; align-items: center;">
+                <h2>Tipos de sabores</h2>
+                <hr>
+                <div style="display: flex; flex-direction: row; position: relative; height: 400px;">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                            <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2016/07/pasteldechocolateconcoca.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                        </div>
+                        <div style="height: 40px;margin-bottom: 5px">
+                            <h3>Chocolate</h3>
+                        </div>
+                        <div style="height: 40px;">
+                            <p>Precio: Desde $130</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                            <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2017/10/pasteldefresasconcremafacil.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                        </div>
+                        <div style="height: 40px;margin-bottom: 5px">
+                            <h3>Fresa</h3>
+                        </div>
+                        <div style="height: 40px;">
+                            <p>Precio: Desde $130</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                            <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/06/esponjosopasteldevanilla.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                        </div>
+                        <div style="height: 40px; margin-bottom: 5px;">
+                            <h3>Vainilla</h3>
+                        </div>
+                        <div style="height: 40px;">
+                            <p>Precio: Desde $130</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h2>Tipos de Cubierta</h2>
+                <hr>
+                <div style="width: 900px;  display: flex; margin-right: 0px; justify-content: center; position: relative; flex-direction: column; align-items: center;">
+                    <hr>
+                    <div style="display: flex; flex-direction: row; position: relative; height: 400px;">
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                            <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                                <img src="https://t2.rg.ltmcdn.com/es/posts/7/7/4/crema_chantilly_casera_57477_orig.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                            </div>
+                            <div style="height: 40px;margin-bottom: 5px">
+                                <h3>Cantilli</h3>
+                            </div>
+                            <div style="height: 40px;">
+                                <p>Precio: Desde $130</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                            <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                                <img src="https://i.ytimg.com/vi/TEfcQRRBZb4/maxresdefault.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                            </div>
+                            <div style="height: 40px;margin-bottom: 5px">
+                                <h3>Arcoiris</h3>
+                            </div>
+                            <div style="height: 40px;">
+                                <p>Precio: Desde $130</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                            <div style="width: 200px; height: 200px; margin-right: 50px; margin-left: 50px;">
+                                <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/05/receta-de-betun-de-chocolate-facil.jpg" alt="" width="200px" height="200px" style="border-radius: 10px;">
+                            </div>
+                            <div style="height: 40px; margin-bottom: 5px;">
+                                <h3>Betun</h3>
+                            </div>
+                            <div style="height: 40px;">
+                                <p>Precio: Desde $130</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="order"  style="height: 150px; width: 50px; padding: 0px; display: flex;" >
+                <a href="./index.html" style="width: 50px; height: 50px;" >
+                    <span  class="material-icons-round" style="font-size: 50px; padding-bottom: 100px; " >
+                        shopping_cart
+                        </span>
+                </a>
+            </div>
+        </main>
+    </body>
+</html>
